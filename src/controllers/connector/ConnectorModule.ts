@@ -12,6 +12,7 @@ import { FigmaModule } from "./figma/FigmaModule";
 import { GmailModule } from "./gmail/GmailModule";
 import { GoogleDocsModule } from "./google-docs/GoogleDocsModule";
 import { GoogleSheetModule } from "./google-sheet/GoogleSheetModule";
+import { GoogleAdsModule } from "./google_ads/GoogleAdsModule";
 import { GoogleCalendarModule } from "./google_calendar/GoogleCalendarModule";
 import { GoogleDriveModule } from "./google_drive/GoogleDriveModule";
 import { GoogleScholarController } from "./google_scholar/GoogleScholarController";
@@ -55,6 +56,7 @@ import { ZoomModule } from "./zoom/ZoomModule";
     FigmaModule,
     ZoomModule,
     SweetTackerModule,
+    GoogleAdsModule,
   ],
   controllers: [
     ArxivSearchController,
